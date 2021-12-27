@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.20)
-project(c_journey)
+project(C_Journey)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(c_journey sort_arrays.cpp)
+add_executable(C_Journey
+        "C and DSA/bubble_sort.cpp"
+)

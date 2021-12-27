@@ -22,7 +22,7 @@ int binary_search(int array[], int x, int low, int high)
 
         if (array[mid] > x)
             return binary_search(array, x, low, mid-1);
-        //else if (key>arrays[mid])
+
         return binary_search(array, x, mid+1, high);
     }
 

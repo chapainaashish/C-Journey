@@ -1,3 +1,4 @@
+// View entered 2*2 matrix in console
 #include<stdio.h>
 int main()
 {

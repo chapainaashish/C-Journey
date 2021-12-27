@@ -1,4 +1,4 @@
-//Program to find square upto 6th term starting from 10
+//Program to find square upto 6th term starting from 10 and decreasing it
 #include<stdio.h>
 int main()
 {

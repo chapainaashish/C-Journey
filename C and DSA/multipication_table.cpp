@@ -1,3 +1,4 @@
+// Display Multipication table of upto given number
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,5 @@
+//Matrix calculator
+//Operation: Divide, Multiply, Addition, Subtraction
 #include<stdio.h>
 int main()
 {

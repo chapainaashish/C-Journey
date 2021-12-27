@@ -1,5 +1,5 @@
-#include<stdio.h>
 // Example of insertion sort in C
+#include<stdio.h>
 int main()
 {
     int i, j, key, n;

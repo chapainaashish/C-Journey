@@ -1,3 +1,4 @@
+//Convert given tempreature
 #include<stdio.h>
 int main()
 {
@@ -23,8 +24,8 @@ int main()
 		
 		else
 		{
-			temp0 = temp1 + 273;
-			printf("The converted tempreature from celcius to kelvin is %f", temp0);
+			temp3 = temp1 + 273;
+			printf("The converted tempreature from celcius to kelvin is %f", temp3);
 		}
 			
 	}
@@ -32,22 +33,22 @@ int main()
 	else if (text1 == 'k')
 		{
 		printf("Enter the temperature in kelvin\n");
-		scanf("%f", &temp4);
+		scanf("%f", &temp1);
 		
-		printf("Press 'f' to change in farhenit\Press 'k' for kelvin\n");
-		scanf(" %c", &text3);
+		printf("Press 'f' to change in farhenit\nPress 'k' for kelvin\n");
+		scanf(" %c", &text2);
 		
-		if (text3 == 'f')
+		if (text2 == 'f')
 		{
-			temp5 = (18 * temp4 - 4594)/10;
-			printf("The converted tempreature from kelvin to farhenit is %f", temp5);
+			temp3 = (18 * temp1 - 4594)/10;
+			printf("The converted tempreature from kelvin to farhenit is %f", temp3);
 			
 		}
 		
 		else
 		{
-			temp6 = temp4 - 273;
-			printf("The converted tempreature from kelvin to celcius is %f", temp6);
+			temp3 = temp1 - 273;
+			printf("The converted tempreature from kelvin to celcius is %f", temp3);
 		}
 }
 	else
