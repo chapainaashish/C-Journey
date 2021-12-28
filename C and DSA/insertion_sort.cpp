@@ -15,7 +15,8 @@ int main()
             i = i -1;
         }
         our_array[i+1] = key;
-        printf("%d ", our_array[i]);
     }
+    for (j=0; j<5; j++)
+        printf("%d ", our_array[j]);
 
 }

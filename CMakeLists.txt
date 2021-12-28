@@ -4,5 +4,5 @@ project(C_Journey)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(C_Journey
-        "C and DSA/bubble_sort.cpp"
+        "C and DSA/insertion_sort.cpp"
 )
