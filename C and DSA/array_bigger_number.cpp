@@ -14,6 +14,7 @@ int main() {
     {
         if (user_array[i] > big_num)
             big_num= user_array[i];
+
     }
     printf("The biggest number from given array is %d", big_num);
 }

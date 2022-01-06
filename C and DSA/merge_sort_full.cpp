@@ -55,12 +55,12 @@ void merge_it(int arrays[], int l, int mid, int h)
             arrays_b[k] = arrays[i];
             i ++;
         }
-        else if (arrays[i] < arrays[j])
+        else if (arrays[i] <= arrays[j])
         {
             arrays_b[k] = arrays[i];
             i ++;
         }
-        else if (arrays[i] > arrays[j])
+        else if (arrays[i] >= arrays[j])
         {
             arrays_b[k] = arrays[j];
             j ++;
