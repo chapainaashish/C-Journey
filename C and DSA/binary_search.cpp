@@ -1,4 +1,7 @@
 //Binary search algorithm workflow in C
+// Best Case: omega(1) which happened if somehow search key is in the middle of the arrray in first iterartion
+// Worst Case: big O(log n)
+// It happened if the search element is in the last of array or not at all at array
 #include<stdio.h>
 int binary_search(int [], int, int, int);
 int main()

@@ -1,4 +1,7 @@
-//Linear searching algorith workflow in C
+// Linear searching algorithm workflow in C
+// Best Case: omega(1) which happened if somehow search key is in the begining of arrray
+// Worst Case: big O(n) where n is the total number of elements in  array or size of the array
+// It happened if the search element is in the last of the array or element not at all at array
 #include<stdio.h>
 int linear_search(int [], int, int);
 int main()
@@ -13,7 +16,7 @@ int main()
     printf("Enter a number to search\n");
     scanf("%d", &key);
     int result = linear_search(arrays,array_size, key);
-    if (result == 1)
+    if (result == 0)
         printf("Search Successful!");
     else
         printf("Can't find element inside array!");
@@ -25,7 +28,7 @@ int linear_search(int arrays[], int array_size, int key)
     for (j=0;j<array_size;j++)
     {
         if (arrays[j] == key)
-            return 1;
+            return 0;
     }
     return -1;
 

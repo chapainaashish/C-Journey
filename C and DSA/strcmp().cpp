@@ -12,10 +12,15 @@ int main()
     printf("Second string: ");
     scanf("%s", string2);
     int comparison = strcmp(string1, string2);
-    if (comparison == 0)
+    if (comparison == 0) {
+        printf("%d", comparison);
         printf("Both strings matched!");
+    }
     else
+    {
         printf("Both strings are different");
+        printf("%d", comparison);
+    }
     return 0;
 }
 

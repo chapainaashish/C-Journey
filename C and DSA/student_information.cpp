@@ -1,4 +1,5 @@
 // C program to save n number of student name, roll and percentage and display it using structure
+// rewind() sets the file position to the begining of the file
 #include<cstdio>
 struct Student{
     char name[100];
