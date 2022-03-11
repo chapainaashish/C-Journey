@@ -1,4 +1,7 @@
 // Bubble sort implementation in C
+// Worst case: Big O(n*n)
+// Best case: Big omega(n)
+// Double loop means the algorithm complexity likely go to be in n*n format
 #include<stdio.h>
 int main()
 {

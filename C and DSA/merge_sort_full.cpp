@@ -1,4 +1,9 @@
 //Merge sort in practical C
+// Use recursion/Divide and Conquer
+// It use more memory but it is more faster than other sorting algorithm
+// Worst Case: Bih O(log n)
+// Best Case: Omega(log n)
+// it's Big thita (log n) cause best case and worst case are same
 #include<stdio.h>
 # define max 100
 void merger(int [], int, int);
