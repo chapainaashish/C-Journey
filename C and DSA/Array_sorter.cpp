@@ -15,6 +15,7 @@ int main()
     printf("Enter the elements;\n");
     for (i=0;i<n;i++)
     {
+
         scanf("%d", &arrays[i]);
     }
     merger(arrays,l,h);
