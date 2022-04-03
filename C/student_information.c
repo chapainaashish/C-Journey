@@ -12,15 +12,14 @@ void read_data(int, Student);
 int main()
 {
     int total_students, choice;
-    printf("Enter the operation;\n\t'1' for write data\n\t'2' for read data\nYour choice: ");
+    printf("Enter the operation;\n\t'1' for write data\n\t'2' for read data\nYour choice(DEFAULT:'2'): ");
     scanf("%d", &choice);
     printf("Enter the total number of students;\n");
     scanf("%d", &total_students);
     if (choice == 1){
         write_data(total_students, student);
     }
-    else
-        read_data(total_students, student);
+    read_data(total_students, student);
 }
 
 void write_data(int total_students, Student student_info)
