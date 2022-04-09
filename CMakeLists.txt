@@ -4,5 +4,5 @@ project(C_Journey)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(C_Journey
-        "C/number-pattern.c"
+        "C/fibonacci(nth).c"
 )

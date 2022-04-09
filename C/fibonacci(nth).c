@@ -1,11 +1,13 @@
-// find fibonacci upto 10th term
+// find fibonacci upto nth term
 #include<stdio.h>
 int main()
 {
-    int a=1,b=1,c;
-    int i;
+    int a=0, b=1, c, num;
+    printf("Enter a number\n");
+    scanf("%d", &num);
     printf("%d\t%d",a,b);
-    for(i=1;i<=8;i++)
+
+    for(int i=3;i<=num;i++)
     {
         c=a+b;
         printf("\t%d",c);
