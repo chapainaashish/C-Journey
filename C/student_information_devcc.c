@@ -55,5 +55,3 @@ void read_data(int total_students,struct Student student_info)
     fclose(student_info.fptr);
     printf("Total %d student(s) file have displayed", total_students);
 }
-
-
