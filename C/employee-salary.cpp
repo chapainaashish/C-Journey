@@ -6,7 +6,7 @@ struct Employee{
 
 int main()
 {
-    for (int i=0;i<5;i++) {
+    for (int i=0;i<5i++) {
         printf("Enter employee name;\n");
         scanf("%s", emp[i].name);
         printf("Enter employee address;\n");
